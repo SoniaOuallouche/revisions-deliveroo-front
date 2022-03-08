@@ -1,1 +1,41 @@
 /* Other rules */
+
+.Header {
+  display: flex;
+  justify-content: center;
+}
+
+.Image {
+  display: flex;
+  flex-direction: row;
+  border-bottom-style: solid;
+  border-bottom-color: lightgrey;
+  border-width: 1px;
+}
+
+.Main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1000px;
+  font-family: Arial;
+
+  margin-top: 25px;
+}
+
+.Left {
+  flex-direction: column;
+  width: 900px;
+  font-family: "roboto", sans-serif;
+  font-style: bold;
+}
+
+.Left p {
+  color: grey;
+  font-size: 19px;
+  font-style: normal;
+}
+
+.Right {
+  flex-direction: row;
+}
